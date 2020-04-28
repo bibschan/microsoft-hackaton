@@ -25,8 +25,8 @@ body {
 }
 
 .round-pictures {
-  border-radius: 50%;
-  width: 150px;
+  border-radius: 60%;
+  width: 110px;
 }
 
 /* Style the search box inside the navigation bar */
@@ -39,11 +39,16 @@ input[type="text"] {
   font-size: 17px;
 }
 
-/* .image-container {
-  width: 100px;
+.chat-card > .image-container {
+  position: relative;
   overflow: hidden;
-  border-radius: 50%;
-} */
+  border-radius: 70%;
+}
+
+.image-container {
+  padding-bottom: 20px;
+  width: 110px;
+}
 
 .main-container {
   padding: 20px;
@@ -56,4 +61,21 @@ input[type="text"] {
   border-radius: 60%;
   display: inline-block;
   padding-top: 15px;
+}
+textarea {
+  height: 20px;
+}
+
+.right-container {
+  float: left;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 50px;
+  width: 700px;
+}
+.video-area {
+  padding-top: 30px;
+  display: inline-block;
+  width: 700px;
+  height: 370px;
 }

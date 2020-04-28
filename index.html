@@ -19,7 +19,7 @@
     <!-- left banner with the user profile and group forum icons -->
     <div class="profile-card">
       <p>Chat Roulette</p>
-      <div class="image-container">
+      <div>
         <img src="user pictures/jane-doe.jpeg" class="round-pictures"/>
       </div>
         <div class="main-container">
@@ -54,7 +54,8 @@
       <div class="image-container">
         <img src="user pictures/jenna.jpg"class="round-pictures"/> Logan Kendall
       </div>
-
+      <br>
+    
       <p><b>Recent Forums</b></p>
       <div class="image-container">
         <img src="user pictures/GOT.png" class="round-pictures"/> Game of Thrones
@@ -67,21 +68,31 @@
 
     </div>
   <!-- end of center banner -->
-      <label>Your ID:</label><br />
-      <textarea id="yourId"></textarea><br />
-      <label>Other ID:</label><br />
-      <textarea id="otherId"></textarea>
-      <button id="connect">connect</button><br />
 
-      <label>Enter Message:</label><br />
+  <!-- right banner -->
+  <div class="right-container">
+      <label>Your ID:</label>
+      <textarea id="yourId"></textarea>
+      <label>Other user ID:</label>
+      <textarea id="otherId"></textarea>
+      <button id="connect">connect</button>
+
+      <!-- <label>Enter Message:</label><br />
       <textarea id="yourMessage"></textarea>
       <button id="send">send</button>
-      <pre id="messages"></pre>
+      <pre id="messages"></pre> -->
 
-      <label>Incoming Video Src : </label><br />
-      <video id="incomingVideo"></video>
-      <label>Local Video Src : </label><br />
-      <video id="localVideo"></video>
+      
+        <div class="video-area">
+          <label>Incoming Video</label><br />
+          <video id="incomingVideo"></video>
+        </div>
+      
+        <div class="video-area">
+          <label>Your Camera</label><br />
+          <video id="localVideo"></video>
+        </div>
+    </div>
     
     <script src="bundle.js" charset="utf-8"></script>
   </body>
