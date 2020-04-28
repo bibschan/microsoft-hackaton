@@ -31,10 +31,14 @@ getUserMedia({ video: true, audio: false }, function (err, stream) {
 
   peer.on("stream", function (stream) {
     console.log("Video section is on");
-    var video = document.createElement("video");
-    document.body.appendChild(video);
+    var video = document.querySelector("#incomingVideo");
+    // document.body.appendChild(video);
 
     video.srcObject = stream;
     video.play();
   });
+
+  var localVideo = document.querySelector("#localVideo");
+  localVideo.srcObject = stream;
+  localVideo.play();
 });
