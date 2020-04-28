@@ -5,42 +5,55 @@ body {
 }
 
 .profile-card {
-  width: 400px;
+  width: 250px;
+  height: 900px;
   margin: auto;
+  float: left;
   background: #fff;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 
-.image-container {
-  position: relative;
+.chat-card {
+  width: 350px;
+  height: 900px;
+  margin: auto;
+  float: left;
+  background: #e8e7e7;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+  /* text-align: center; */
 }
 
-.info {
-  color: #4b4fe2;
-  margin-right: 16px;
+.round-pictures {
+  border-radius: 50%;
+  width: 150px;
 }
+
+/* Style the search box inside the navigation bar */
+input[type="text"] {
+  float: center;
+  padding: 3px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 10px;
+  font-size: 17px;
+}
+
+/* .image-container {
+  width: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+} */
 
 .main-container {
   padding: 20px;
+  align-items: center;
 }
 
-.skill-bar {
-  background-color: #bdc9ea;
-  border-radius: 16px;
-}
-
-.progress-bar {
-  padding: 0.1em 16px;
-  border-radius: 16px;
-  text-align: center;
-  color: #fff;
-  background-color: #4b4fe2;
-}
-
-.title {
-  position: absolute;
-  left: 15px;
-  bottom: 0;
-  color: white;
-  font-size: 1.5em;
+/* left banner icons  */
+.banner-icon {
+  width: 40px;
+  border-radius: 60%;
+  display: inline-block;
+  padding-top: 15px;
 }

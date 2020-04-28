@@ -5,70 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="app.ts"></script>
     <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <title>Hackaton</title>
   </head>
+  <body></body>
+    <title>Chat Roulette</title>
+  </head>
   <body>
+    <!-- left banner with the user profile and group forum icons -->
     <div class="profile-card">
+      <p>Chat Roulette</p>
       <div class="image-container">
-        <img src="user pictures/jane-doe.jpeg" style="width: 400px;" />
-        <div class="title">
-          <h2>Jane Doe</h2>
-        </div>
+        <img src="user pictures/jane-doe.jpeg" class="round-pictures"/>
       </div>
+        <div class="main-container">
+          <p><i class="fa fa-pencil"></i> Edit Profile</p>
+            <hr />
+          <img src="user pictures/chat.png" class="banner-icon"> <p>Chats</p>
+          <img src="user pictures/camera.png" class="banner-icon"> <p>Video Chats</p>
+            <br>
+          <p><b>Group Forums</b></p>
+          <img src="user pictures/star-wars.png" class="banner-icon"> <p>Star Wars</p>
+          <img src="user pictures/coffee.png" class="banner-icon"> <p>Coffee</p>
+            <br>
+            <br>
+          <p><i class="fa fa-plus"></i> Add Group Forum</p>
+        </div>
+    </div>
+  <!-- end of left banner -->
+
+  <!-- center banner with the user chat and recent forums -->    
+    <div class="chat-card">
       <div class="main-container">
-        <p><i class="fa fa-briefcase"></i> UX Designer @ Microsoft</p>
-        <p><i class="fa fa-home"></i> Vancouver, BC</p>
-        <p><i class="fa fa-envelope"></i> jane.doe@microsoft.com</p>
-        <hr />
-        <p>
-          <b><i class="fa fa-asterisk info"></i>Skills</b>
-        </p>
-        <p>Adobe Photoshop</p>
-        <div class="skill-bar">
-          <div class="progress-bar" style="width: 85%;">85%</div>
-        </div>
-
-        <p>UI Design</p>
-        <div class="skill-bar">
-          <div class="progress-bar" style="width: 90%;">90%</div>
-        </div>
-
-        <p>Content Writing</p>
-        <div class="skill-bar">
-          <div class="progress-bar" style="width: 70%;">70%</div>
-        </div>
-
-        <p>Prototyping</p>
-        <div class="skill-bar">
-          <div class="progress-bar" style="width: 60%;">60%</div>
-        </div>
+      <input type="text" placeholder="Search..">
+      <p>Recent Chats</p>
+      
+      <div class="image-container">
+        <img src="user pictures/jack.jpg" class="round-pictures"/> Anna Kay
+      </div>
+      
+      <div class="image-container">
+        <img src="user pictures/mill.jpg" class="round-pictures"/> Kevin Roy
+      </div>
+      <div class="image-container">
+        <img src="user pictures/jenna.jpg"class="round-pictures"/> Logan Kendall
       </div>
 
-      <div class="localid">
-        <label class="localidlabel">Your ID:</label>
-        <textarea class="localid" id="yourId"></textarea>
+      <p><b>Recent Forums</b></p>
+      <div class="image-container">
+        <img src="user pictures/GOT.png" class="round-pictures"/> Game of Thrones
       </div>
-      <div class="incomingid">
-        <label class="incomingidlabel">Incoming ID:</label>
-        <textarea id="otherId"></textarea>
+      <div class="image-container">
+        <img src="user pictures/food.png" class="round-pictures"/> Healthy Eating
       </div>
+    </div>
 
+
+    </div>
+  <!-- end of center banner -->
+      <label>Your ID:</label><br />
+      <textarea id="yourId"></textarea><br />
+      <label>Other ID:</label><br />
+      <textarea id="otherId"></textarea>
       <button id="connect">connect</button><br />
 
-      <label id="yourMessagelabel">Enter Message:</label><br />
+      <label>Enter Message:</label><br />
       <textarea id="yourMessage"></textarea>
       <button id="send">send</button>
       <pre id="messages"></pre>
 
-      <label id="incomingVideolabel">Incoming Video Src : </label><br />
+      <label>Incoming Video Src : </label><br />
       <video id="incomingVideo"></video>
-      <label id="localVideolabel">Local Video Src : </label><br />
+      <label>Local Video Src : </label><br />
       <video id="localVideo"></video>
-    </div>
+    
     <script src="bundle.js" charset="utf-8"></script>
   </body>
+<!-- >>>>>>> d0eebf6b9582c90a38338756b47ca8fe5ce60494 -->
 </html>
