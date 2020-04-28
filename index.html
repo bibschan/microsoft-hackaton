@@ -48,20 +48,25 @@
         </div>
       </div>
 
-      <label>Your ID:</label><br />
-      <textarea id="yourId"></textarea><br />
-      <label>Other ID:</label><br />
-      <textarea id="otherId"></textarea>
+      <div class="localid">
+        <label class="localidlabel">Your ID:</label>
+        <textarea class="localid" id="yourId"></textarea>
+      </div>
+      <div class="incomingid">
+        <label class="incomingidlabel">Incoming ID:</label>
+        <textarea id="otherId"></textarea>
+      </div>
+
       <button id="connect">connect</button><br />
 
-      <label>Enter Message:</label><br />
+      <label id="yourMessagelabel">Enter Message:</label><br />
       <textarea id="yourMessage"></textarea>
       <button id="send">send</button>
       <pre id="messages"></pre>
 
-      <label>Incoming Video Src : </label><br />
+      <label id="incomingVideolabel">Incoming Video Src : </label><br />
       <video id="incomingVideo"></video>
-      <label>Local Video Src : </label><br />
+      <label id="localVideolabel">Local Video Src : </label><br />
       <video id="localVideo"></video>
     </div>
     <script src="bundle.js" charset="utf-8"></script>
