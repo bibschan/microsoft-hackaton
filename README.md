@@ -16,7 +16,14 @@ The graphs above show that most people enjoy the free time they now have alongsi
 
 The data above shows that most interviewees dislike the lonely feeling and also work.
 
+Next, we identify who our interviewees were - with the intention of creating personas and refining our project.
+
+### Who were our users
+![](https://media.discordapp.net/attachments/703368684571459714/704740325683363850/DLYnyRV2kAAAAASUVORK5CYII.png)
+
 Most of our surveyees are currently unemployed and/or students. This confirms the need for a networking platform for those who are looking to connect with peers during the pandemic. The survey did not identify those who were already unemployed prior to the pandemic or lost their jobs due to it.
+
+Using natural language processing to create a recommendation engine base on the cosine similarity algorithm to help the user meet the right person.
 
 ## Our idea
 
@@ -30,4 +37,8 @@ Website's homepage
 Web portal once users are logged in
 ![](https://media.discordapp.net/attachments/703368684571459714/704772100346478663/Screen_Shot_2020-04-28_at_15.11.42.png?width=742&height=480)
 
-The web developers created a prototype using HTML/CSS/JavaScript
+The web development team used the UX sketches to create a simple prototype implemented with HTML/CSS/Javascript. Our idea is to have the ability to chat 1 on 1 but also have the option of joining bigger groups of your interest, on the left-hand side you see the tags - which are basically groups you can join the chat room or video. The pairing of individuals would NOT be randomized, you will be paired up with someone that shares the same interests as your based on the recommendation engine from the dataset.
+
+The final prototype video can be seen below.
+
+https://youtu.be/QuOCn4Xyx3o
