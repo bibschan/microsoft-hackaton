@@ -42,3 +42,7 @@ The web development team used the UX sketches to create a simple prototype imple
 The final prototype video can be seen below.
 
 https://youtu.be/QuOCn4Xyx3o
+
+### To run the application
+
+Download the repo, run ```npm install``` to install the dependencies. Then run ```npm start```. Then applicatino should be executed on port 9967. Add ```#init``` after the URL to make this peer the initiator. Copy URL to another tab to make it the connector.
