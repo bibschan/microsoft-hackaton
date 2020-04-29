@@ -20,20 +20,9 @@ getUserMedia({ video: true, audio: false }, function (err, stream) {
     peer.signal(otherId);
   });
 
-  document.getElementById("send").addEventListener("click", function () {
-    var yourMessage = document.getElementById("yourMessage").value;
-    peer.send(yourMessage);
-  });
-
-  peer.on("data", function (data) {
-    document.getElementById("messages").textContent += data + "\n";
-  });
-
   peer.on("stream", function (stream) {
     console.log("Video section is on");
     var video = document.querySelector("#incomingVideo");
-    // document.body.appendChild(video);
-
     video.srcObject = stream;
     video.play();
   });
