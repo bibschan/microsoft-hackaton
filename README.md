@@ -39,9 +39,10 @@ Web portal once users are logged in
 
 The web development team used the UX sketches to create a simple prototype implemented with HTML/CSS/Javascript. Our idea is to have the ability to chat 1 on 1 but also have the option of joining bigger groups of your interest, on the left-hand side you see the tags - which are basically groups you can join the chat room or video. The pairing of individuals would NOT be randomized, you will be paired up with someone that shares the same interests as your based on the recommendation engine from the dataset.
 
-The final prototype video can be seen below.
+The final prototype video can be seen below and also in YouTube https://youtu.be/QuOCn4Xyx3o
 
-https://youtu.be/QuOCn4Xyx3o
+![1](https://media.discordapp.net/attachments/705529523491307574/705597551730229309/ezgif-4-158b17089175.gif)
+
 
 ### To run the application
 
